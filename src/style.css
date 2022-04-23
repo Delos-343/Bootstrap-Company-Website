@@ -1,0 +1,165 @@
+html,
+body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav svg {
+  color: #f1f1f1;
+}
+
+.navbar a {
+  transition: all 1s;
+  border-radius: 0.25rem;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  transition: all 1s;
+  background-color: #ffa500;
+}
+
+#services-overview p {
+  font-size: 1rem;
+  width: 75%; margin: 0 auto;
+}
+
+#services-overview svg {
+  margin: 2em 0 0 0;
+}
+
+#services-overview a {
+  transition: all .5s;
+}
+
+#services-overview a:hover {
+  transition: all .5s;
+  background-color: #ffa500;
+}
+
+.block
+{
+  color: white;
+  background-color: black;
+  padding: 5%;
+}
+
+.block-1
+{
+  background-color: #324376;
+  
+}
+
+.full-page
+{
+  height: 100vh;
+}
+
+.carousel-placeholder
+{
+  width: 100%;
+  height: 100%;
+  background-color: #OCOCOC;
+  color: white;
+  background-size: cover;
+}
+
+.carousel-placeholder-1
+{
+  background-image: url("https://images.unsplash.com/photo-1531683760080-7bb28a630bd7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1482&q=80");
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.carousel-placeholder-2
+{
+  background-image: url("https://images.unsplash.com/photo-1571086291540-b137111fa1c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80");
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.carousel-placeholder-3
+{
+  background-image: url(https://images.unsplash.com/photo-1585713181935-d5f622cc2415?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80);
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.carousel-item
+{
+  height: 100vh;
+}
+
+.carousel-item a {
+  transition: all .5s;
+}
+
+.carousel-item a:hover {
+  transition: all .5s;
+  background-color: #ffa500;
+}
+
+.carousel-caption {
+  max-width: 100vh; border-radius: 0.5rem;
+  margin: auto; padding: 5%;
+  background-color: #0c0c0c;
+  opacity: 80%;
+}
+
+#featured-products-carousel
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block
+{
+  color: white;
+  align-content: center;
+  padding: 5%;
+ 
+}
+
+.block-1
+{
+  background-color: #324376;
+}
+
+.block-2
+{
+  background-color: #586ba4;
+}
+
+.block-3
+{
+  background-color: #f76c5e;
+}
+
+.block-4
+{
+  background-color: #f68e5f;
+}
+
+@media screen only and (min-width: 700px)
+{
+  
+  .block-2
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .first-order-reponsive
+  {
+    order: 1;
+  }
+  
+  .second-order-responsive
+  {
+    order: 2;
+  }
+  
+}
+  
